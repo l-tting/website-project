@@ -1,0 +1,179 @@
+.par{
+    position: relative;
+
+}
+.top{
+    /* position:absolute; */
+
+}
+.botttom{
+    position: absolute;
+
+}
+.flex{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: nowrap;
+}
+.x-one{
+    position: absolute;
+    border-style: hidden;
+    width: 24%;
+    height: 150%;
+    top: 170%;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.circle{
+    position: absolute;
+    border-style:hidden;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    left: 4%;
+    bottom: 3%;
+    background-image: url(prof1.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.olivia{
+    position: absolute;
+    bottom: 6%;
+    left: 25%;
+    font-size: small;
+}
+.user{
+    position: absolute;
+    left: 39%;
+    top: 73%;
+    font-size: small;
+    color: gray;
+
+}
+.clock{
+    position: absolute;
+    left: 8.6%;
+    top: 73%;
+    font-size: small;
+    color: gray;
+
+}
+.star{
+    position: absolute;
+    top: 52%;
+    left: 60%;
+    font-size:x-small;
+}
+.line{
+    position: relative;
+    top: 550%;
+    opacity: 0.2;
+}
+.open{
+    position: absolute;
+    /* font-size: small; */
+    font-weight: bold;
+    top: 59%;
+    left: 8%;
+}
+.thirty{
+    position: absolute;
+    left: 8%;
+    color: palevioletred;
+    font-size: small;
+    top: 51%;
+}
+.oli{
+   
+    font-weight: bold;
+}
+
+.prog{
+    
+    font-weight: bold;
+}
+.gem{
+    position: absolute;
+    top: 4%;
+    left: 5%;
+}
+.txt{
+    position: absolute;
+    top: 2%;
+    left: 9%;
+}
+.bar{
+    position: absolute;
+    top: 4%;
+    left: 37%;
+}
+.corner{
+    position: absolute;
+    top: 4%;
+    left: 87%;
+}
+.feature{
+    position: absolute;
+    top: 220%;
+    left: 30%;
+}
+
+
+.x-two{
+    position: absolute;
+    border-style: hidden;
+    width: 24%;
+    height: 150%;
+    top: 170%;
+    left: 40%;
+}
+.x-three{
+    position: absolute;
+    border-style: hidden;
+    width: 24%;
+    height: 150%;
+    top: 170%;
+    left: 70%;
+}
+
+.end{
+    position: absolute;
+    top: 450%;
+    left: 30%;
+}
+.l-two{
+    position: relative;
+    top: 83%;
+    opacity: 0.2;
+}
+
+.l-three{
+    position: relative;
+    top: 331px;
+    opacity: 0.2;
+
+
+}
+.im-two{
+    position: absolute;
+    border-style: hidden;
+    width: 100%;
+    height: 50%;
+    background-image: url(teacher2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.im-three{
+    position: absolute;
+    border-style: hidden;
+    width: 100%;
+    height: 50%;
+    background-image: url(student1.jpeg);
+    background-size: cover;
+    background-position: center;
+}

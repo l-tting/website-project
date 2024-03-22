@@ -1,0 +1,14 @@
+
+    
+
+
+.flexcontainer{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.flex{
+    width: 100px;
+    height: 100px;
+}
