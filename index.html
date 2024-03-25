@@ -1,143 +1,298 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style23.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .container {
+            position: absolute;
+            display: flex;
+            flex-wrap: wrap;
+            top: 109%;
+            left: 10%;
+        }
+
+        .flex {
+            width: 200px;
+            margin: 40px;
+            padding: 20px;
+        }
+
+        img {
+            height: 200px;
+        }
+
+        .header {
+            position: absolute;
+            text-align: center;
+            left: 33%;
+            top: 99%;
+        }
+
+        .stars {
+            margin-left: 45px;
+            font-size: small;
+            margin-top: 1px;
+        }
+
+        .open {
+            font-weight: bold;
+        }
+
+        .user {
+            margin-left: 40px;
+        }
+
+        .olivia {
+            font-weight: bold;
+        }
+
+        .end {
+            position: absolute;
+            left: 30%;
+            top: 99%;
+            text-align: center;
+        }
+
+        .view {
+            color: palevioletred;
+        }
+
+        .join {
+            color: gray;
+            margin-top: 13px;
+        }
+
+        .featured {
+            color: darkblue;
+            margin-top: 1px;
+        }
+
+        .thirty {
+            color: palevioletred;
+        }
+
+        .nav {}
+
+        .gem {
+            position: absolute;
+            top: 4%;
+            left: 4%;
+        }
+
+        .study {
+            position: absolute;
+            left: 7%;
+            top: 0%;
+            color: white;
+        }
+
+        .home {
+            position: absolute;
+            left: 36%;
+            color: white;
+            top: 2%;
+
+
+        }
+
+        .corner {
+            position: absolute;
+            left: 85%;
+            top: 2%;
+            color: white;
+        }
+
+        .content {
+            position: absolute;
+            left: 30%;
+            top: 30%;
+        }
+
+        .ready {
+            background-color: palevioletred;
+            border-radius: 38px;
+            color: white;
+            font-size: larger;
+            height: 60px;
+            width: 260px;
+            opacity: 0.8;
+        }
+
+        .top {
+            position: relative;
+            outline: none;
+            border: none;
+            box-shadow: none;
+           
+            background-position: center;
+            background-image: url(teacher.jpg);
+            height: 880px
+        }
+
+        .discount {
+            font-size: 150%;
+            color: white;
+        }
+
+        
+
+        .wave {
+            position: absolute;
+            width: 100%;
+            height: 30px;
+            top: 72%;
+
+        }
+
+        .c {
+            margin-right: 10px;
+        }
+
+        .h {
+            margin-right: 29px;
+            font-size: large;
+        }
+        .color{
+            position: absolute;
+            background-color: blue;
+            width: 100%;
+            height: 880px;
+            opacity: 0.5;
+        }
+    </style>
 </head>
+
 <body>
-    <div class="par">
-        <div class="top">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="svg">
-                <path fill="#8c65d6" fill-opacity="0.6"
-                    d="M0,192L34.3,181.3C68.6,171,137,149,206,138.7C274.3,128,343,128,411,144C480,160,549,192,617,202.7C685.7,213,754,203,823,197.3C891.4,192,960,192,1029,208C1097.1,224,1166,256,1234,266.7C1302.9,277,1371,267,1406,261.3L1440,256L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z">
-                </path>
-            </svg>
-            <div class="nav">
-                <div class="gem"><i class="fa-regular fa-gem fa-2xl" style="color: #eb7da7;"></i></div>
-                <div class="txt"> <span class="study">Study Course</span><br>Journey to success</div>
-                <div class="bar">
-                    <span class="h">Home</span>
-                    <span class="h">About</span>
-                    <span class="h">Courses</span>
-                    <span class="h">Pages</span>
-                    <span class="h">Contact</span>
-                </div>
-                <div class="corner">
-                    <span class="c"><i class="fa-solid fa-magnifying-glass"></i></span>
-                    <span class="c"><i class="fa-solid fa-user"></i> Login</span>
-                    <span class="c"><i class="fa-regular fa-moon"></i></span>
-                </div>
-            </div>
-                <div class="study"></div>
-                <div class="home"></div>
-                <div class="search"></div>
+    <div class="parent">
 
-            <div class="discount"></div>
+
+    <div class="top">
+        <div class="color"></div>
+        <div class="wave">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,96L80,112C160,128,320,160,480,154.7C640,149,800,107,960,80C1120,53,1280,43,1360,37.3L1440,32L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+
 
         </div>
-        <div class="bottom">
-            <div class="feature">JOIN OUR LEARN COURSES<br>Featured Online Courses</div>
-            <div class="flex">
-                <div class="x-one">
-                    <img src="teacher.jpg" alt="">
-                    <div>
-                        <p class="thirty">$35.00</p>
-                        <p class="star">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
 
-                        </p>
-                        
-                        <p class="open">Open Programming Courses for<br>everyone : Python</p>
-                        <p class="clock">
-                            <span><i class="fa-regular fa-clock"></i></span>
-                            <span>20hrs</span>
-                        </p>
-                        <p class="user">
-                            <span><i class="fa-solid fa-user"></i></span>
-                            <span>50</span>
-                        </p>
-                        <hr class="line">
-                        <p>
-                            <span class="circle"></span>
-                            <span class="olivia">by <span class="oli">Olivia</span> in <span class="prog">Programming</span></span>
-                
-                        </p>
-                    </div>
-                </div>
-                <div class="x-two">
-                    <div class="im-two"></div>
-                    <p class="thirty">$0.00</p>
-                    <p class="star">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-
-                    </p>
-                    
-                    <p class="open">Learning to write as a clean and<br>Professional Author</p>
-                    <p class="clock">
-                        <span><i class="fa-regular fa-clock"></i></span>
-                        <span>20hrs</span>
-                    </p>
-                    <p class="user">
-                        <span><i class="fa-solid fa-user"></i></span>
-                        <span>50</span>
-                    </p>
-                    <hr class="l-two">
-                    <p>
-                        <span class="circle"></span>
-                        <span class="olivia">by <span class="oli">Isabella</span> in <span class="prog">Teaching</span></span>
-            
-                    </p>
-                    
-                </div>
-                <div class="x-three">
-                    <div class="im-three"></div>
-                    
-
-
-                    <div>
-                    <p class="thirty">$49.00</p>
-                    <p class="star">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-
-                    </p>
-                    
-                    <p class="open">Learn Master JQuery in a Short<br>Period of Time</p>
-                    <p class="clock">
-                        <span><i class="fa-regular fa-clock"></i></span>
-                        <span>20hrs</span>
-                    </p>
-                    <p class="user">
-                        <span><i class="fa-solid fa-user"></i></span>
-                        <span>50</span>
-                    </p>
-                    <hr class="l-three">
-                    <p>
-                        <span class="circle"></span>
-                        <span class="olivia">by <span class="oli">William</span> in <span class="prog">Programming</span></span>
-            
-                    </p>
-
-                </div>
-               
-            </div>
-            <div class="end">Control your personal prreference settings to get notified about<br>appropriate courses <span>View All Courses</span></div>
+    
+        <div class="nav">
+            <span class="gem"><i class="fa-regular fa-gem fa-2xl" style="color: #eb7da7;"></i></span>
+            <h3 class="study">Study Course<br>Journey to success</h3>
+            <p class="home">
+                <span class="h">Home</span>
+                <span class="h">About</span>
+                <span class="h">Courses</span>
+                <span class="h">Pages</span>
+                <span class="h">Contact</span>
+            </p>
+            <p class="corner">
+                <span class="c"><i class="fa-solid fa-magnifying-glass"></i></span>
+                <span class="c"><i class="fa-solid fa-user"></i> Login</span>
+                <span class="c"><i class="fa-regular fa-moon"></i></span>
+            </p>
         </div>
+        <div class="content">
+            <p class="discount">50% Discount on all Popular <br> Courses</p>
+            <p class="discount">Take the first step to your journey to success with us</p>
+            <button type="button" class="ready">Ready to get started?</button>
+
+        </div>
+        
+   
+    </div>
 
     </div>
+    <div class="bottom">
+        <div class="header">
+            <h4 class="join">JOIN OUR CLASSES</h4>
+            <h1 class="featured">Featured Online Courses</h1>
+        </div>
+
+        <div class="container">
+            <div class="flex"><img src="prof1.jpg" alt="">
+                <p> <span class="thirty">$35.00</span>
+                    <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </span>
+
+                </p>
+                <p class="open">Open Programming Courses for everyone : Python</p>
+                <p>
+                    <i class="fa-regular fa-clock"></i> 20hrs
+                    <span class="user"><i class="fa-solid fa-user"></i> 50</span>
+                </p>
+                <p>
+                    <span class="circle"><i class="fa-regular fa-circle"></i></span> by <span
+                        class="olivia">Olivia</span> in <span class="olivia">Programming</span>
+                </p>
+            </div>
+            <div class="flex">
+                <img src="teacher2.jpg" alt="">
+                <p><span class="thirty">$35.00</span>
+                    <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </span>
+
+                </p>
+                <p class="open">Learning to Write as a clean and Professional Author</p>
+                <p>
+                    <i class="fa-regular fa-clock"></i> 20hrs
+                    <span class="user"><i class="fa-solid fa-user"></i> 50</span>
+                </p>
+                <p>
+                    <span class="circle"><i class="fa-regular fa-circle"></i></span> by <span
+                        class="olivia">Olivia</span> in <span class="olivia">Programming</span>
+                </p>
+
+
+
+            </div>
+            <div class="flex">
+                <img src="student1.jpeg" alt="">
+                <p><span class="thirty">$35.00</span>
+                    <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </span>
+
+                </p>
+                <p class="open">Learn JQuery in a Short<br>Period of Time</p>
+                <p>
+                    <i class="fa-regular fa-clock"></i> 20hrs
+                    <span class="user"><i class="fa-solid fa-user"></i> 50</span>
+                </p>
+                <p>
+                    <span class="circle"><i class="fa-regular fa-circle"></i></span> by <span
+                        class="olivia">Olivia</span> in <span class="olivia">Programming</span>
+                </p>
+
+            </div>
+            <div class="end">
+                <footer class="footer">Control your personal prreference setings to get notified about<br>appropriate
+                    courses <span class="view">View All Courses</span></footer>
+
+            </div>
+        </div>
+    </div>
+    
 </body>
+
 </html>
